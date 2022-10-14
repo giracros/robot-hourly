@@ -1,0 +1,8 @@
+robotframework==5.0.1
+robotframework-datadriver==1.6.1
+robotframework-pabot==2.7.0
+robotframework-requests==0.9.3
+robotframework-seleniumlibrary==6.0.0
+robotframework-xvfb==1.2.2
+robotframework-notifications==1.2.0
+selenium==4.5.0

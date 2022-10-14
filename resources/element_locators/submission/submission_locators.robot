@@ -1,0 +1,10 @@
+*** Variables ***
+${TITTLE_SUBMISSION}                    xpath=//div[@class='header']//span[contains(text(),'Submissions')]
+${CREATE_SUBMISSION}                    xpath=//button[@aria-label='New Submission']
+${POLICY_START_DATE_POP}                xpath=//div[@class='PopOver_overlay__CyoEd']
+${POLICY_START_DATE_SELECT}             xpath=//button[normalize-space()='17']
+${NAME_OF_BUSINESS_TEXT}                xpath=//input[@class='UnderlineBasicInput_input__YARch']
+${FEIN_TEXT}                            xpath=//input[@class='MaskTextField_input__9A934']
+${SAVE_SUBMISSION}                      xpath=//button[@aria-label='Save']
+${TEMP_VALIDATION}                      xpath=//div[@class='DetailValue_valueVertical__ZKYP2 QuoteDetailsHeader_insuredName__nPsw1']
+${MODAL_SUBMISSION}                     xpath=//div[@class='Dialog_dialog__DT-Qt NewSubmissionDialogButton_dialog__FZoRq']//div[@class='DialogHeader_header__-NB3s']
