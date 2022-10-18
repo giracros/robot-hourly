@@ -25,7 +25,8 @@ Enter User Login Info
     Wait Until Element Is Visible   ${CONTINUE_BUTTON}
     Input Text     ${EMAIL_FIELD}     ${USER.email}
     Input Text     ${PASSWORD_FIELD}  ${USER.password}
-    Wait Until Element Loads Then Click It   ${CONTINUE_BUTTON}
+    Wait Until Element Loads Then Click It   ${CONTINUE_BUTTON} 
+    Wait Until Element Is Visible   ${LOGIN_PAGE}
     Input Text     ${CODE_FIELD}  ${USER.code}
-    Wait Until Element Loads Then Click It   ${LOGIN_BUTTON}
+    Wait Until Element Loads Then Click It   ${LOGIN_PAGE}
     Wait Until Element Is Visible   ${LOGO_ICON} 
