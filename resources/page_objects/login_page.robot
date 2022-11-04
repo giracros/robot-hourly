@@ -23,5 +23,4 @@ Enter User Login Info
     Input Text     ${CODE_FIELD}     ${USER.code}
     Click Element   ${LOGIN_BUTTON}
     Sleep   3s
-    Capture Page Screenshot
     

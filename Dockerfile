@@ -29,7 +29,7 @@ RUN apt-get update
 RUN apt-get -y install libcurl4 libgbm1
 RUN	dpkg -i google-chrome*.deb
 RUN	rm google-chrome*.deb
-RUN wget -q https://chromedriver.storage.googleapis.com/105.0.5195.52/chromedriver_linux64.zip
+RUN wget -q https://chromedriver.storage.googleapis.com/107.0.5304.62/chromedriver_linux64.zip
 RUN	unzip chromedriver_linux64.zip
 RUN	rm chromedriver_linux64.zip
 RUN	mv chromedriver /usr/local/bin
