@@ -28,4 +28,6 @@ Create_New_Submission
 Create new Submission
     [Arguments]    &{USER}
     login_page.Login To Hourly Website    &{USER}
+    side_nav_page.Click On Submissions
+    submission_page.Create new Submission
     [Teardown]    header_page.Log Out

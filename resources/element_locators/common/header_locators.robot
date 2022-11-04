@@ -1,5 +1,6 @@
 *** Variables ***
 ${HEADER}                       xpath=//div[@class='navbar-container']
-${LOGO_ICON}                    xpath=//a[@class='logo']//*[name()='svg']//*[name()='path' and contains(@fill,'#062A67')]
-${PROFILE_ICON}                 xpath=//div[@class='AccountMenuLabel_userName__KMhQs']
-${SIGN_OUT}                     xpath=//div[@class='MenuItem_menuItem__g9dHw']
+${LOGO_ICON}                    xpath=//*[@id="navbar"]/div/a
+${PROFILE_ICON}                 xpath=//*[@id="navbar"]/div/div/div[2]/div[1]/div
+${SIGN_OUT_BUTTON}              xpath=//div[@class='AccountMenuItem_label__Rto5e']
+
