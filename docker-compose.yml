@@ -19,5 +19,4 @@ services:
            "$PWD/scripts:/scripts",
            "$PWD/reports:/reports",
            "$PWD/resources:/resources",
-           "$PWD/env:/env",
         ]
