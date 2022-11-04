@@ -7,7 +7,7 @@ Resource  page_objects/common/side_nav_page.robot
 
 *** Variables *** 
 &{TEST_USER}    &{ADMIN}
-&{ADMIN}     email=%{ADMIN_EMAIL}     password=%{ADMIN_PW}      code=%{ADMIN_CODE}     role=admin
+&{ADMIN}     email=%{ADMIN_EMAIL}     password=%{ADMIN_PWD}      code=%{ADMIN_CODE}     role=admin
 
 *** Keywords ***
 Set Up Test Suite
@@ -28,8 +28,6 @@ Open Chrome Browser
     Call Method  ${options}  add_argument  --disable-gpu
     Call Method  ${options}  add_argument  --disable-dev-shm-usage
     Call Method  ${options}  add_argument  --incognito
-    ${prefs}     Create Dictionary    download.default_directory=/tmp
-    Call Method  ${options}  add_experimental_option    prefs    ${prefs}
     Create Webdriver    Chrome    chrome_options=${options}
 
 Tear Down Test Suite 
