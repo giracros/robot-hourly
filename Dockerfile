@@ -2,7 +2,7 @@ FROM ubuntu:20.04
 
 ENV DEBIAN_FRONTEND noninteractive
 
-LABEL org.opencontainers.image.authors="danielf@hourly.io"
+LABEL org.opencontainers.image.authors="email@email.io"
 LABEL name="Docker build for acceptance testing using the robot framework"
 
 # Install
